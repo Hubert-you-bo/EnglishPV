@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <title>單字學習器</title>
+  <style>
+    body { 
+      font-family: sans-serif; 
+      text-align: center; 
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    #word { font-size: 6vw; margin: 0px; cursor: pointer; }
+    #translation { font-size: 3vw; color: #555; }
+    #image {
+      max-height: 50vw;
+      
+      display: block; /* Added display property */
+    }
+    /* 全螢幕模式的樣式 */
+    :fullscreen { background: white; }
+    
+    #loginForm {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 1000;
+    }
+    
+    #loginForm.hidden {
+        display: none;
+    }
+    
+    #passwordInput {
+        font-size: 1.5em;
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    #loginButton {
+        font-size: 1.2em;
+        padding: 10px 20px;
+        background: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    #loginButton:hover {
+        background: #45a049;
+    }
+    
+    .error-message {
+        color: red;
+        margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- 新增登入表單 -->
+  <div id="loginForm">
+      <input type="dataType" id="passwordInput" placeholder="請輸入密碼" />
+      <button id="loginButton">登入</button>
+      <div id="errorMessage" class="error-message"></div>
+  </div>
+
+  <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; width: 100vw;">
+    <div id="word">點擊畫面開始！</div>
+    <div id="translation"></div>
+    <img id="image" src="" alt="單字圖片" />
+  </div>
+
+  <script>
+    let words = [];            // 將由 fetch 讀入
+    let currentWord = "";      // 儲存目前的英文單字
+    let showImage = true; // 控制圖像顯示狀態
+    let dataType = ""; // 在全域範圍定義
+
+    let voices = [];
+    window.speechSynthesis.onvoiceschanged = () => {
+        voices = window.speechSynthesis.getVoices();
+    };
+
+    // 在頁面一開始就載入 JSON
+    window.addEventListener('DOMContentLoaded', () => {
+    
+    });
+
+    function showRandomWord() {
+      if (words.length === 0) {
+        return;
+      }
+      const idx = Math.floor(Math.random() * words.length);
+      const { en, zh} = words[idx];
+      document.getElementById("word").textContent = en;
+      document.getElementById("translation").textContent = zh;
+      currentWord = en;
+
+      // 顯示對應的圖片
+      const imageElement = document.getElementById("image");
+      if (en && showImage) {
+        imageElement.src = `https://hubert-you-bo.github.io/DataPV${dataType}/images/${en}.png`;
+        imageElement.style.display = "block";
+      } else {
+        imageElement.style.display = "none";
+      }
+
+      speakWord(en);
+    }
+
+    function speakWord(text) {
+      const synth = window.speechSynthesis;
+      const utter = new SpeechSynthesisUtterance(text);
+      utter.voice = voices.find(v => v.name.includes("Google") && v.lang === "en-US")
+                   || voices.find(v => v.lang === "en-US");
+      utter.lang = 'en-US';
+      utter.rate = 0.9;
+      utter.pitch = 1.1;
+      utter.volume = 1.0;
+      synth.cancel();
+      synth.speak(utter);
+    }
+
+    function replayWord() {
+      if (currentWord) speakWord(currentWord);
+    }
+
+    // 處理滑鼠點擊事件
+    document.addEventListener('click', (event) => {
+      showRandomWord(); // 左鍵點擊：下一個單字
+    });
+
+    // 處理滑鼠右鍵事件
+    document.addEventListener('contextmenu', (event) => {
+      event.preventDefault(); // 禁止預設右鍵選單
+      replayWord(); // 右鍵點擊：重播聲音
+    });
+
+    // 處理鍵盤事件
+    document.addEventListener('keydown', (event) => {
+        switch (event.key) {
+            case 'ArrowRight':
+                showRandomWord(); // 右箭頭：下一個單字
+                break;
+            case 'ArrowLeft':
+                replayWord(); // 左箭頭：重播聲音
+                break;
+            case 'ArrowUp':
+                showImage = false; // 上箭頭：關閉圖像
+                document.getElementById("image").style.display = "none";
+                showRandomWord();
+                break;
+            case 'f':
+            case 'F':
+                toggleFullScreen(); // F 鍵：切換全螢幕
+                break;
+        }
+    });
+
+    // 新增滑鼠中鍵事件處理
+    document.addEventListener('auxclick', (event) => {
+      if (event.button === 1) { // 滑鼠中鍵
+        event.preventDefault();
+        showImage = false; // 關閉圖像
+        document.getElementById("image").style.display = "none";
+      }
+    });
+
+    // 全螢幕切換功能
+    function toggleFullScreen() {
+      if (!document.fullscreenElement) {
+        document.documentElement.requestFullscreen().catch(err => {
+          console.log(`全螢幕錯誤: ${err.message}`);
+        });
+      } else {
+        document.exitFullscreen();
+      }
+    }
+
+    // 更新原有的 onclick 事件
+    document.getElementById('word').onclick = null;
+
+    // 登入相關變數
+    const loginForm = document.getElementById('loginForm');
+    const passwordInput = document.getElementById('passwordInput');
+    const loginButton = document.getElementById('loginButton');
+    const errorMessage = document.getElementById('errorMessage');
+
+    // 檢查密碼函式
+    function checkPassword() {
+        dataType = passwordInput.value.trim(); // ✅ 將 dataType 儲存為全域變數
+        // 防止空密碼送出
+        if (!dataType) {
+            errorMessage.textContent = '請輸入密碼';
+            return;
+        }
+        if (dataType == "???") {
+            errorMessage.style.width = '350px'; // 設定寬度為 80px
+            errorMessage.style.color = '#2196F3'; // Change color to blue
+            errorMessage.style.fontSize = '1.2em'; // Increase font size
+            errorMessage.style.padding = '15px';   // Add padding
+            errorMessage.style.textAlign = 'left'; /* 讓文字靠左對齊 */
+            errorMessage.style.border = '2px solid #2196F3'; // Add border
+            errorMessage.style.borderRadius = '8px'; // Round corners
+            errorMessage.style.margin = '20px';    // Add margin
+
+            fetch('README.md')
+                .then(response => response.text())
+                .then(data => {
+                    // 將換行符號替換為 <br>
+                    const formattedData = data.replace(/\n/g, '<br>');
+                    errorMessage.innerHTML = formattedData; // 使用 innerHTML 顯示內容
+                });
+            return;
+        }
+
+        // 嘗試讀取 JSON 檔
+        fetch(`${dataType}.json`)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('伺服器回應錯誤');
+                }
+                return response.json();
+            })
+            .then(data => {
+                // 成功載入單字
+                words = data;
+
+                // 清除錯誤訊息
+                errorMessage.textContent = '';
+                passwordInput.value = ''; // 清空密碼輸入框
+                // 隱藏登入表單
+                loginForm.classList.add('hidden');
+
+                // 預載圖片
+                preloadImages();
+
+                // 顯示第一個單字
+                showRandomWord();
+            })
+            .catch(error => {
+                console.error('載入單字資料失敗：', error);
+
+                // 顯示錯誤訊息
+                errorMessage.textContent = '密碼錯誤或資料載入失敗，請再試一次';
+                passwordInput.value = '';
+            });
+    }
+
+    // 預載圖片函式
+    function preloadImages() {
+      words.forEach(({ en }) => {
+        const img = new Image();
+        img.src = `https://hubert-you-bo.github.io/DataPV${dataType}/images/${en}.png`;
+      });
+    }
+
+    // 登入按鈕點擊事件
+    loginButton.addEventListener('click', checkPassword);
+
+    // 密碼輸入框的 Enter 鍵事件
+    passwordInput.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter') {
+            event.preventDefault(); // ✅ 避免表單預設送出
+            checkPassword();
+        }
+    });
+
+  </script>
+</body>
+</html>
