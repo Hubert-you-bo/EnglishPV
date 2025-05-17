@@ -88,7 +88,7 @@
     let currentWord = "";      // 儲存目前的英文單字
     let showImage = true; // 控制圖像顯示狀態
     let dataType = ""; // 在全域範圍定義
-
+    let idxf = [];
     let voices = [];
     window.speechSynthesis.onvoiceschanged = () => {
         voices = window.speechSynthesis.getVoices();
@@ -103,8 +103,21 @@
       if (words.length === 0) {
         return;
       }
-      const idx = Math.floor(Math.random() * words.length);
-      const { en, zh} = words[idx];
+      
+      
+      let idx = null; // Initialize idx with a default value
+      if (idxf.length > 0) {
+        idx = idxf[Math.floor(Math.random() * idxf.length)];
+        idxf = idxf.filter(item => item !== idx);
+        idx = Math.floor(idx / 3);
+        console.log(idx);
+      }
+      if (idx !== null && idx >= 0 && idx < words.length) {
+        ({ en, zh } = words[idx]);
+      } else {
+        ({ en, zh } = words[66]);
+        console.log(idx);
+      }
       document.getElementById("word").textContent = en;
       document.getElementById("translation").textContent = zh;
       currentWord = en;
@@ -238,6 +251,7 @@
             .then(data => {
                 // 成功載入單字
                 words = data;
+                idxf = Array.from({ length: 3 * words.length }, (_, i) => i);
 
                 // 清除錯誤訊息
                 errorMessage.textContent = '';
