@@ -1,0 +1,1634 @@
+[
+  {
+    "en": "ad",
+    "zh": "廣告"
+  },
+  {
+    "en": "agent",
+    "zh": "代理人"
+  },
+  {
+    "en": "alarm",
+    "zh": "鬧鐘"
+  },
+  {
+    "en": "album",
+    "zh": "專輯"
+  },
+  {
+    "en": "alcohol",
+    "zh": "酒精"
+  },
+  {
+    "en": "application",
+    "zh": "應用程式"
+  },
+  {
+    "en": "appointment",
+    "zh": "預約"
+  },
+  {
+    "en": "arrival",
+    "zh": "抵達"
+  },
+  {
+    "en": "assignment",
+    "zh": "作業"
+  },
+  {
+    "en": "atmosphere",
+    "zh": "氣氛"
+  },
+  {
+    "en": "attraction",
+    "zh": "景點"
+  },
+  {
+    "en": "authority",
+    "zh": "權威"
+  },
+  {
+    "en": "battery",
+    "zh": "電池"
+  },
+  {
+    "en": "battle",
+    "zh": "戰鬥"
+  },
+  {
+    "en": "beauty",
+    "zh": "美麗"
+  },
+  {
+    "en": "bee",
+    "zh": "蜜蜂"
+  },
+  {
+    "en": "belief",
+    "zh": "信念"
+  },
+  {
+    "en": "bell",
+    "zh": "鈴鐺"
+  },
+  {
+    "en": "benefit",
+    "zh": "益處"
+  },
+  {
+    "en": "board",
+    "zh": "板子"
+  },
+  {
+    "en": "bomb",
+    "zh": "炸彈"
+  },
+  {
+    "en": "border",
+    "zh": "邊界"
+  },
+  {
+    "en": "branch",
+    "zh": "樹枝"
+  },
+  {
+    "en": "brand",
+    "zh": "品牌"
+  },
+  {
+    "en": "breath",
+    "zh": "呼吸"
+  },
+  {
+    "en": "bride",
+    "zh": "新娘"
+  },
+  {
+    "en": "bubble",
+    "zh": "氣泡"
+  },
+  {
+    "en": "cable",
+    "zh": "電纜"
+  },
+  {
+    "en": "campaign",
+    "zh": "活動"
+  },
+  {
+    "en": "candidate",
+    "zh": "候選人"
+  },
+  {
+    "en": "cap",
+    "zh": "帽子"
+  },
+  {
+    "en": "captain",
+    "zh": "船長"
+  },
+  {
+    "en": "category",
+    "zh": "類別"
+  },
+  {
+    "en": "ceiling",
+    "zh": "天花板"
+  },
+  {
+    "en": "celebration",
+    "zh": "慶祝"
+  },
+  {
+    "en": "ceremony",
+    "zh": "儀式"
+  },
+  {
+    "en": "chain",
+    "zh": "鏈條"
+  },
+  {
+    "en": "challenge",
+    "zh": "挑戰"
+  },
+  {
+    "en": "champion",
+    "zh": "冠軍"
+  },
+  {
+    "en": "channel",
+    "zh": "頻道"
+  },
+  {
+    "en": "chapter",
+    "zh": "章節"
+  },
+  {
+    "en": "charge",
+    "zh": "費用"
+  },
+  {
+    "en": "cheat",
+    "zh": "作弊"
+  },
+  {
+    "en": "chemical",
+    "zh": "化學物質"
+  },
+  {
+    "en": "chest",
+    "zh": "胸部"
+  },
+  {
+    "en": "childhood",
+    "zh": "童年"
+  },
+  {
+    "en": "claim",
+    "zh": "聲明"
+  },
+  {
+    "en": "clause",
+    "zh": "條款"
+  },
+  {
+    "en": "client",
+    "zh": "客戶"
+  },
+  {
+    "en": "climb",
+    "zh": "攀爬"
+  },
+  {
+    "en": "cloth",
+    "zh": "布料"
+  },
+  {
+    "en": "clue",
+    "zh": "線索"
+  },
+  {
+    "en": "coach",
+    "zh": "教練"
+  },
+  {
+    "en": "coal",
+    "zh": "煤炭"
+  },
+  {
+    "en": "coin",
+    "zh": "硬幣"
+  },
+  {
+    "en": "collection",
+    "zh": "收藏"
+  },
+  {
+    "en": "competitor",
+    "zh": "競爭者"
+  },
+  {
+    "en": "complaint",
+    "zh": "抱怨"
+  },
+  {
+    "en": "conclusion",
+    "zh": "結論"
+  },
+  {
+    "en": "connection",
+    "zh": "連接"
+  },
+  {
+    "en": "consumer",
+    "zh": "消費者"
+  },
+  {
+    "en": "contact",
+    "zh": "聯繫"
+  },
+  {
+    "en": "container",
+    "zh": "容器"
+  },
+  {
+    "en": "content1",
+    "zh": "內容"
+  },
+  {
+    "en": "contrast",
+    "zh": "對比"
+  },
+  {
+    "en": "corn",
+    "zh": "玉米"
+  },
+  {
+    "en": "costume",
+    "zh": "服裝"
+  },
+  {
+    "en": "cotton",
+    "zh": "棉花"
+  },
+  {
+    "en": "count",
+    "zh": "計數"
+  },
+  {
+    "en": "countryside",
+    "zh": "鄉村"
+  },
+  {
+    "en": "court",
+    "zh": "法院"
+  },
+  {
+    "en": "cover",
+    "zh": "封面"
+  },
+  {
+    "en": "currency",
+    "zh": "貨幣"
+  },
+  {
+    "en": "curtain",
+    "zh": "窗簾"
+  },
+  {
+    "en": "custom",
+    "zh": "習俗"
+  },
+  {
+    "en": "cut",
+    "zh": "切割"
+  },
+  {
+    "en": "damage",
+    "zh": "損害"
+  },
+  {
+    "en": "deal",
+    "zh": "交易"
+  },
+  {
+    "en": "decade",
+    "zh": "十年"
+  },
+  {
+    "en": "definition",
+    "zh": "定義"
+  },
+  {
+    "en": "departure",
+    "zh": "出發"
+  },
+  {
+    "en": "destination",
+    "zh": "目的地"
+  },
+  {
+    "en": "development",
+    "zh": "發展"
+  },
+  {
+    "en": "diagram",
+    "zh": "圖表"
+  },
+  {
+    "en": "diamond",
+    "zh": "鑽石"
+  },
+  {
+    "en": "difficulty",
+    "zh": "困難"
+  },
+  {
+    "en": "dirt",
+    "zh": "泥土"
+  },
+  {
+    "en": "disadvantage",
+    "zh": "缺點"
+  },
+  {
+    "en": "discount",
+    "zh": "折扣"
+  },
+  {
+    "en": "dislike",
+    "zh": "不喜歡"
+  },
+  {
+    "en": "district",
+    "zh": "區域"
+  },
+  {
+    "en": "documentary",
+    "zh": "紀錄片"
+  },
+  {
+    "en": "doubt",
+    "zh": "懷疑"
+  },
+  {
+    "en": "drop",
+    "zh": "滴"
+  },
+  {
+    "en": "drum",
+    "zh": "鼓"
+  },
+  {
+    "en": "dust",
+    "zh": "灰塵"
+  },
+  {
+    "en": "duty",
+    "zh": "責任"
+  },
+  {
+    "en": "earthquake",
+    "zh": "地震"
+  },
+  {
+    "en": "economy",
+    "zh": "經濟"
+  },
+  {
+    "en": "edge",
+    "zh": "邊緣"
+  },
+  {
+    "en": "editor",
+    "zh": "編輯"
+  },
+  {
+    "en": "effort",
+    "zh": "努力"
+  },
+  {
+    "en": "election",
+    "zh": "選舉"
+  },
+  {
+    "en": "element",
+    "zh": "元素"
+  },
+  {
+    "en": "emergency",
+    "zh": "緊急情況"
+  },
+  {
+    "en": "emotion",
+    "zh": "情緒"
+  },
+  {
+    "en": "employment",
+    "zh": "就業"
+  },
+  {
+    "en": "enemy",
+    "zh": "敵人"
+  },
+  {
+    "en": "engineering",
+    "zh": "工程"
+  },
+  {
+    "en": "entertainment",
+    "zh": "娛樂"
+  },
+  {
+    "en": "entrance",
+    "zh": "入口"
+  },
+  {
+    "en": "entry",
+    "zh": "進入"
+  },
+  {
+    "en": "episode",
+    "zh": "集"
+  },
+  {
+    "en": "escape",
+    "zh": "逃脫"
+  },
+  {
+    "en": "exchange",
+    "zh": "交換"
+  },
+  {
+    "en": "exhibition",
+    "zh": "展覽"
+  },
+  {
+    "en": "exit",
+    "zh": "出口"
+  },
+  {
+    "en": "explosion",
+    "zh": "爆炸"
+  },
+  {
+    "en": "export",
+    "zh": "出口"
+  },
+  {
+    "en": "favor",
+    "zh": "恩惠"
+  },
+  {
+    "en": "fear",
+    "zh": "恐懼"
+  },
+  {
+    "en": "fence",
+    "zh": "柵欄"
+  },
+  {
+    "en": "fighting",
+    "zh": "打鬥"
+  },
+  {
+    "en": "file",
+    "zh": "文件"
+  },
+  {
+    "en": "fitness",
+    "zh": "健康"
+  },
+  {
+    "en": "flag",
+    "zh": "旗幟"
+  },
+  {
+    "en": "flood",
+    "zh": "洪水"
+  },
+  {
+    "en": "flour",
+    "zh": "麵粉"
+  },
+  {
+    "en": "flow",
+    "zh": "流動"
+  },
+  {
+    "en": "folk",
+    "zh": "民間"
+  },
+  {
+    "en": "force",
+    "zh": "力量"
+  },
+  {
+    "en": "frame",
+    "zh": "框架"
+  },
+  {
+    "en": "friendship",
+    "zh": "友誼"
+  },
+  {
+    "en": "fuel",
+    "zh": "燃料"
+  },
+  {
+    "en": "function",
+    "zh": "功能"
+  },
+  {
+    "en": "fur",
+    "zh": "毛皮"
+  },
+  {
+    "en": "garage",
+    "zh": "車庫"
+  },
+  {
+    "en": "generation",
+    "zh": "世代"
+  },
+  {
+    "en": "gentleman",
+    "zh": "紳士"
+  },
+  {
+    "en": "ghost",
+    "zh": "鬼魂"
+  },
+  {
+    "en": "giant",
+    "zh": "巨人"
+  },
+  {
+    "en": "glove",
+    "zh": "手套"
+  },
+  {
+    "en": "grade",
+    "zh": "年級"
+  },
+  {
+    "en": "graduate",
+    "zh": "畢業生"
+  },
+  {
+    "en": "grain",
+    "zh": "穀物"
+  },
+  {
+    "en": "growth",
+    "zh": "成長"
+  },
+  {
+    "en": "guard",
+    "zh": "守衛"
+  },
+  {
+    "en": "headline",
+    "zh": "標題"
+  },
+  {
+    "en": "heating",
+    "zh": "暖氣"
+  },
+  {
+    "en": "helicopter",
+    "zh": "直升機"
+  },
+  {
+    "en": "highway",
+    "zh": "公路"
+  },
+  {
+    "en": "hire",
+    "zh": "僱用"
+  },
+  {
+    "en": "horror",
+    "zh": "恐怖"
+  },
+  {
+    "en": "host",
+    "zh": "主人"
+  },
+  {
+    "en": "hunt",
+    "zh": "狩獵"
+  },
+  {
+    "en": "hurricane",
+    "zh": "颶風"
+  },
+  {
+    "en": "hurry",
+    "zh": "匆忙"
+  },
+  {
+    "en": "identity",
+    "zh": "身份"
+  },
+  {
+    "en": "immigrant",
+    "zh": "移民"
+  },
+  {
+    "en": "impact",
+    "zh": "影響"
+  },
+  {
+    "en": "import",
+    "zh": "進口"
+  },
+  {
+    "en": "ingredient",
+    "zh": "成分"
+  },
+  {
+    "en": "iron",
+    "zh": "鐵"
+  },
+  {
+    "en": "issue",
+    "zh": "議題"
+  },
+  {
+    "en": "IT",
+    "zh": "資訊科技"
+  },
+  {
+    "en": "journal",
+    "zh": "期刊"
+  },
+  {
+    "en": "journey",
+    "zh": "旅程"
+  },
+  {
+    "en": "judge",
+    "zh": "法官"
+  },
+  {
+    "en": "keyboard",
+    "zh": "鍵盤"
+  },
+  {
+    "en": "kick",
+    "zh": "踢"
+  },
+  {
+    "en": "killing",
+    "zh": "殺戮"
+  },
+  {
+    "en": "kiss",
+    "zh": "吻"
+  },
+  {
+    "en": "knock",
+    "zh": "敲擊"
+  },
+  {
+    "en": "label",
+    "zh": "標籤"
+  },
+  {
+    "en": "laboratory",
+    "zh": "實驗室"
+  },
+  {
+    "en": "lack",
+    "zh": "缺乏"
+  },
+  {
+    "en": "layer",
+    "zh": "層"
+  },
+  {
+    "en": "lead1",
+    "zh": "領導"
+  },
+  {
+    "en": "leaf",
+    "zh": "葉子"
+  },
+  {
+    "en": "leather",
+    "zh": "皮革"
+  },
+  {
+    "en": "leisure",
+    "zh": "休閒"
+  },
+  {
+    "en": "length",
+    "zh": "長度"
+  },
+  {
+    "en": "level",
+    "zh": "水平"
+  },
+  {
+    "en": "lie2",
+    "zh": "謊言"
+  },
+  {
+    "en": "like",
+    "zh": "喜歡"
+  },
+  {
+    "en": "limit",
+    "zh": "限制"
+  },
+  {
+    "en": "lip",
+    "zh": "嘴唇"
+  },
+  {
+    "en": "liquid",
+    "zh": "液體"
+  },
+  {
+    "en": "literature",
+    "zh": "文學"
+  },
+  {
+    "en": "living",
+    "zh": "生活"
+  },
+  {
+    "en": "location",
+    "zh": "位置"
+  },
+  {
+    "en": "loss",
+    "zh": "損失"
+  },
+  {
+    "en": "luxury",
+    "zh": "奢侈品"
+  },
+  {
+    "en": "magic",
+    "zh": "魔法"
+  },
+  {
+    "en": "management",
+    "zh": "管理"
+  },
+  {
+    "en": "marketing",
+    "zh": "行銷"
+  },
+  {
+    "en": "marriage",
+    "zh": "婚姻"
+  },
+  {
+    "en": "measure",
+    "zh": "測量"
+  },
+  {
+    "en": "mess",
+    "zh": "混亂"
+  },
+  {
+    "en": "mine",
+    "zh": "礦坑"
+  },
+  {
+    "en": "mix",
+    "zh": "混合"
+  },
+  {
+    "en": "mixture",
+    "zh": "混合物"
+  },
+  {
+    "en": "mood",
+    "zh": "心情"
+  },
+  {
+    "en": "move",
+    "zh": "移動"
+  },
+  {
+    "en": "mud",
+    "zh": "泥巴"
+  },
+  {
+    "en": "murder",
+    "zh": "謀殺"
+  },
+  {
+    "en": "muscle",
+    "zh": "肌肉"
+  },
+  {
+    "en": "musical",
+    "zh": "音樂劇"
+  },
+  {
+    "en": "mystery",
+    "zh": "神秘"
+  },
+  {
+    "en": "nail",
+    "zh": "釘子"
+  },
+  {
+    "en": "narrative",
+    "zh": "敘事"
+  },
+  {
+    "en": "nation",
+    "zh": "國家"
+  },
+  {
+    "en": "native",
+    "zh": "本地人"
+  },
+  {
+    "en": "needle",
+    "zh": "針"
+  },
+  {
+    "en": "net",
+    "zh": "網子"
+  },
+  {
+    "en": "normal",
+    "zh": "正常"
+  },
+  {
+    "en": "note",
+    "zh": "筆記"
+  },
+  {
+    "en": "occasion",
+    "zh": "場合"
+  },
+  {
+    "en": "operation",
+    "zh": "手術"
+  },
+  {
+    "en": "organizer",
+    "zh": "組織者"
+  },
+  {
+    "en": "original",
+    "zh": "原創"
+  },
+  {
+    "en": "pack",
+    "zh": "包裹"
+  },
+  {
+    "en": "package",
+    "zh": "包裹"
+  },
+  {
+    "en": "painful",
+    "zh": "痛苦的"
+  },
+  {
+    "en": "pan",
+    "zh": "平底鍋"
+  },
+  {
+    "en": "pass",
+    "zh": "通行證"
+  },
+  {
+    "en": "passion",
+    "zh": "熱情"
+  },
+  {
+    "en": "path",
+    "zh": "路徑"
+  },
+  {
+    "en": "payment",
+    "zh": "付款"
+  },
+  {
+    "en": "performance",
+    "zh": "表演"
+  },
+  {
+    "en": "photographer",
+    "zh": "攝影師"
+  },
+  {
+    "en": "photography",
+    "zh": "攝影"
+  },
+  {
+    "en": "pin",
+    "zh": "大頭針"
+  },
+  {
+    "en": "pipe",
+    "zh": "管子"
+  },
+  {
+    "en": "place",
+    "zh": "地方"
+  },
+  {
+    "en": "planning",
+    "zh": "計畫"
+  },
+  {
+    "en": "pleasure",
+    "zh": "快樂"
+  },
+  {
+    "en": "plenty",
+    "zh": "充足"
+  },
+  {
+    "en": "plot",
+    "zh": "情節"
+  },
+  {
+    "en": "poem",
+    "zh": "詩"
+  },
+  {
+    "en": "poet",
+    "zh": "詩人"
+  },
+  {
+    "en": "poetry",
+    "zh": "詩歌"
+  },
+  {
+    "en": "point",
+    "zh": "點"
+  },
+  {
+    "en": "poison",
+    "zh": "毒藥"
+  },
+  {
+    "en": "policy",
+    "zh": "政策"
+  },
+  {
+    "en": "politician",
+    "zh": "政治人物"
+  },
+  {
+    "en": "politics",
+    "zh": "政治"
+  },
+  {
+    "en": "port",
+    "zh": "港口"
+  },
+  {
+    "en": "portrait",
+    "zh": "肖像"
+  },
+  {
+    "en": "pot",
+    "zh": "鍋子"
+  },
+  {
+    "en": "powder",
+    "zh": "粉末"
+  },
+  {
+    "en": "prayer",
+    "zh": "祈禱"
+  },
+  {
+    "en": "prediction",
+    "zh": "預測"
+  },
+  {
+    "en": "presentation",
+    "zh": "簡報"
+  },
+  {
+    "en": "press",
+    "zh": "新聞界"
+  },
+  {
+    "en": "pressure",
+    "zh": "壓力"
+  },
+  {
+    "en": "priest",
+    "zh": "牧師"
+  },
+  {
+    "en": "prince",
+    "zh": "王子"
+  },
+  {
+    "en": "princess",
+    "zh": "公主"
+  },
+  {
+    "en": "principal",
+    "zh": "校長"
+  },
+  {
+    "en": "printing",
+    "zh": "印刷"
+  },
+  {
+    "en": "prisoner",
+    "zh": "囚犯"
+  },
+  {
+    "en": "producer",
+    "zh": "製作人"
+  },
+  {
+    "en": "production",
+    "zh": "生產"
+  },
+  {
+    "en": "profession",
+    "zh": "職業"
+  },
+  {
+    "en": "profit",
+    "zh": "利潤"
+  },
+  {
+    "en": "property",
+    "zh": "財產"
+  },
+  {
+    "en": "protest",
+    "zh": "抗議"
+  },
+  {
+    "en": "pull",
+    "zh": "拉"
+  },
+  {
+    "en": "punishment",
+    "zh": "懲罰"
+  },
+  {
+    "en": "push",
+    "zh": "推"
+  },
+  {
+    "en": "qualification",
+    "zh": "資格"
+  },
+  {
+    "en": "quotation",
+    "zh": "引文"
+  },
+  {
+    "en": "quote",
+    "zh": "引用"
+  },
+  {
+    "en": "race",
+    "zh": "種族"
+  },
+  {
+    "en": "racing",
+    "zh": "賽跑"
+  },
+  {
+    "en": "raise",
+    "zh": "提升"
+  },
+  {
+    "en": "range",
+    "zh": "範圍"
+  },
+  {
+    "en": "reaction",
+    "zh": "反應"
+  },
+  {
+    "en": "reality",
+    "zh": "現實"
+  },
+  {
+    "en": "receipt",
+    "zh": "收據"
+  },
+  {
+    "en": "recommendation",
+    "zh": "推薦"
+  },
+  {
+    "en": "reference",
+    "zh": "參考"
+  },
+  {
+    "en": "religion",
+    "zh": "宗教"
+  },
+  {
+    "en": "relation",
+    "zh": "關係"
+  },
+  {
+    "en": "relative",
+    "zh": "親戚"
+  },
+  {
+    "en": "release",
+    "zh": "釋放"
+  },
+  {
+    "en": "rent",
+    "zh": "租金"
+  },
+  {
+    "en": "repair",
+    "zh": "修理"
+  },
+  {
+    "en": "repeat",
+    "zh": "重複"
+  },
+  {
+    "en": "reservation",
+    "zh": "預訂"
+  },
+  {
+    "en": "resource",
+    "zh": "資源"
+  },
+  {
+    "en": "respect",
+    "zh": "尊重"
+  },
+  {
+    "en": "responsibility",
+    "zh": "責任"
+  },
+  {
+    "en": "result",
+    "zh": "結果"
+  },
+  {
+    "en": "retire",
+    "zh": "退休"
+  },
+  {
+    "en": "revise",
+    "zh": "修改"
+  },
+  {
+    "en": "ring2",
+    "zh": "戒指"
+  },
+  {
+    "en": "risk",
+    "zh": "風險"
+  },
+  {
+    "en": "robot",
+    "zh": "機器人"
+  },
+  {
+    "en": "roll",
+    "zh": "捲"
+  },
+  {
+    "en": "rope",
+    "zh": "繩子"
+  },
+  {
+    "en": "row1",
+    "zh": "排"
+  },
+  {
+    "en": "rule",
+    "zh": "規則"
+  },
+  {
+    "en": "safety",
+    "zh": "安全"
+  },
+  {
+    "en": "sail",
+    "zh": "帆"
+  },
+  {
+    "en": "sailor",
+    "zh": "水手"
+  },
+  {
+    "en": "sample",
+    "zh": "樣本"
+  },
+  {
+    "en": "sand",
+    "zh": "沙子"
+  },
+  {
+    "en": "script",
+    "zh": "劇本"
+  },
+  {
+    "en": "sculpture",
+    "zh": "雕塑"
+  },
+  {
+    "en": "security",
+    "zh": "安全"
+  },
+  {
+    "en": "seed",
+    "zh": "種子"
+  },
+  {
+    "en": "servant",
+    "zh": "僕人"
+  },
+  {
+    "en": "set",
+    "zh": "集合"
+  },
+  {
+    "en": "setting",
+    "zh": "設定"
+  },
+  {
+    "en": "sex",
+    "zh": "性別"
+  },
+  {
+    "en": "shake",
+    "zh": "搖晃"
+  },
+  {
+    "en": "share",
+    "zh": "分享"
+  },
+  {
+    "en": "shelf",
+    "zh": "書架"
+  },
+  {
+    "en": "shell",
+    "zh": "貝殼"
+  },
+  {
+    "en": "shift",
+    "zh": "轉移"
+  },
+  {
+    "en": "sight",
+    "zh": "視力"
+  },
+  {
+    "en": "signal",
+    "zh": "信號"
+  },
+  {
+    "en": "similarity",
+    "zh": "相似處"
+  },
+  {
+    "en": "sink",
+    "zh": "水槽"
+  },
+  {
+    "en": "slave",
+    "zh": "奴隸"
+  },
+  {
+    "en": "slice",
+    "zh": "切片"
+  },
+  {
+    "en": "software",
+    "zh": "軟體"
+  },
+  {
+    "en": "soil",
+    "zh": "土壤"
+  },
+  {
+    "en": "solid",
+    "zh": "固體"
+  },
+  {
+    "en": "sort",
+    "zh": "種類"
+  },
+  {
+    "en": "spending",
+    "zh": "花費"
+  },
+  {
+    "en": "spirit",
+    "zh": "精神"
+  },
+  {
+    "en": "spot",
+    "zh": "地點"
+  },
+  {
+    "en": "spread",
+    "zh": "傳播"
+  },
+  {
+    "en": "spring",
+    "zh": "春天"
+  },
+  {
+    "en": "stadium",
+    "zh": "體育場"
+  },
+  {
+    "en": "staff",
+    "zh": "員工"
+  },
+  {
+    "en": "standard",
+    "zh": "標準"
+  },
+  {
+    "en": "statistic",
+    "zh": "統計數據"
+  },
+  {
+    "en": "statue",
+    "zh": "雕像"
+  },
+  {
+    "en": "stick",
+    "zh": "棍子"
+  },
+  {
+    "en": "stranger",
+    "zh": "陌生人"
+  },
+  {
+    "en": "strength",
+    "zh": "力量"
+  },
+  {
+    "en": "string",
+    "zh": "繩子"
+  },
+  {
+    "en": "studio",
+    "zh": "工作室"
+  },
+  {
+    "en": "stuff",
+    "zh": "東西"
+  },
+  {
+    "en": "substance",
+    "zh": "物質"
+  },
+  {
+    "en": "summary",
+    "zh": "總結"
+  },
+  {
+    "en": "supply",
+    "zh": "供應"
+  },
+  {
+    "en": "supporter",
+    "zh": "支持者"
+  },
+  {
+    "en": "surface",
+    "zh": "表面"
+  },
+  {
+    "en": "swim",
+    "zh": "游泳"
+  },
+  {
+    "en": "switch",
+    "zh": "開關"
+  },
+  {
+    "en": "symptom",
+    "zh": "症狀"
+  },
+  {
+    "en": "tail",
+    "zh": "尾巴"
+  },
+  {
+    "en": "talent",
+    "zh": "天賦"
+  },
+  {
+    "en": "tape",
+    "zh": "膠帶"
+  },
+  {
+    "en": "tax",
+    "zh": "稅"
+  },
+  {
+    "en": "technique",
+    "zh": "技術"
+  },
+  {
+    "en": "tend",
+    "zh": "傾向"
+  },
+  {
+    "en": "tent",
+    "zh": "帳篷"
+  },
+  {
+    "en": "theme",
+    "zh": "主題"
+  },
+  {
+    "en": "theory",
+    "zh": "理論"
+  },
+  {
+    "en": "throat",
+    "zh": "喉嚨"
+  },
+  {
+    "en": "till",
+    "zh": "直到"
+  },
+  {
+    "en": "tire",
+    "zh": "輪胎"
+  },
+  {
+    "en": "toe",
+    "zh": "腳趾"
+  },
+  {
+    "en": "ton",
+    "zh": "噸"
+  },
+  {
+    "en": "tongue",
+    "zh": "舌頭"
+  },
+  {
+    "en": "total",
+    "zh": "總計"
+  },
+  {
+    "en": "touch",
+    "zh": "觸摸"
+  },
+  {
+    "en": "tour",
+    "zh": "旅遊"
+  },
+  {
+    "en": "trade",
+    "zh": "貿易"
+  },
+  {
+    "en": "trainer",
+    "zh": "訓練師"
+  },
+  {
+    "en": "translation",
+    "zh": "翻譯"
+  },
+  {
+    "en": "transport",
+    "zh": "運輸"
+  },
+  {
+    "en": "treatment",
+    "zh": "治療"
+  },
+  {
+    "en": "trend",
+    "zh": "趨勢"
+  },
+  {
+    "en": "trick",
+    "zh": "把戲"
+  },
+  {
+    "en": "truth",
+    "zh": "真相"
+  },
+  {
+    "en": "tube",
+    "zh": "管子"
+  },
+  {
+    "en": "type",
+    "zh": "類型"
+  },
+  {
+    "en": "underwear",
+    "zh": "內衣"
+  },
+  {
+    "en": "unemployment",
+    "zh": "失業"
+  },
+  {
+    "en": "union",
+    "zh": "工會"
+  },
+  {
+    "en": "update",
+    "zh": "更新"
+  },
+  {
+    "en": "value",
+    "zh": "價值"
+  },
+  {
+    "en": "version",
+    "zh": "版本"
+  },
+  {
+    "en": "victim",
+    "zh": "受害者"
+  },
+  {
+    "en": "view",
+    "zh": "視野"
+  },
+  {
+    "en": "viewer",
+    "zh": "觀眾"
+  },
+  {
+    "en": "volunteer",
+    "zh": "志願者"
+  },
+  {
+    "en": "vote",
+    "zh": "投票"
+  },
+  {
+    "en": "warning",
+    "zh": "警告"
+  },
+  {
+    "en": "waste",
+    "zh": "浪費"
+  },
+  {
+    "en": "wave",
+    "zh": "波浪"
+  },
+  {
+    "en": "weapon",
+    "zh": "武器"
+  },
+  {
+    "en": "while",
+    "zh": "一段時間"
+  },
+  {
+    "en": "whole",
+    "zh": "整體"
+  },
+  {
+    "en": "will",
+    "zh": "意志"
+  },
+  {
+    "en": "win",
+    "zh": "勝利"
+  },
+  {
+    "en": "wing",
+    "zh": "翅膀"
+  },
+  {
+    "en": "wonder",
+    "zh": "奇蹟"
+  },
+  {
+    "en": "wool",
+    "zh": "羊毛"
+  },
+  {
+    "en": "worry",
+    "zh": "擔心"
+  },
+  {
+    "en": "youth",
+    "zh": "青年"
+  }
+]
